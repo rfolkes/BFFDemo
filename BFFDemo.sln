@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52FE7FA2-9648-4BB9-AFF4-64C0C9A97E44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "src\IdentityServer\IdentityServer.csproj", "{CD3B4286-96ED-4840-BE39-0696D5E2529A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteApi", "src\Api\RemoteApi.csproj", "{F985371A-37BF-48DB-873A-5E20802564A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptClientHost", "src\JavaScriptClient\JavaScriptClientHost.csproj", "{E7FDB40B-A8DF-4542-A9D8-14E3CA1E5CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD3B4286-96ED-4840-BE39-0696D5E2529A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3B4286-96ED-4840-BE39-0696D5E2529A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3B4286-96ED-4840-BE39-0696D5E2529A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3B4286-96ED-4840-BE39-0696D5E2529A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F985371A-37BF-48DB-873A-5E20802564A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F985371A-37BF-48DB-873A-5E20802564A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F985371A-37BF-48DB-873A-5E20802564A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F985371A-37BF-48DB-873A-5E20802564A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FDB40B-A8DF-4542-A9D8-14E3CA1E5CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FDB40B-A8DF-4542-A9D8-14E3CA1E5CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FDB40B-A8DF-4542-A9D8-14E3CA1E5CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FDB40B-A8DF-4542-A9D8-14E3CA1E5CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD3B4286-96ED-4840-BE39-0696D5E2529A} = {52FE7FA2-9648-4BB9-AFF4-64C0C9A97E44}
+		{F985371A-37BF-48DB-873A-5E20802564A4} = {52FE7FA2-9648-4BB9-AFF4-64C0C9A97E44}
+		{E7FDB40B-A8DF-4542-A9D8-14E3CA1E5CAC} = {52FE7FA2-9648-4BB9-AFF4-64C0C9A97E44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC3C2FCB-54E9-4C52-AAF4-6249D2B15C03}
+	EndGlobalSection
+EndGlobal
